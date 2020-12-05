@@ -1,0 +1,5 @@
+<h1> RECIPES INDEX PAGE </h1>
+
+<% @recipes.each do |r| %>
+    <h3><a href='/recipes/<%=r.id%>'><%= r.name %></a></h3>
+<% end %>
